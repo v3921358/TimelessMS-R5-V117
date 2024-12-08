@@ -1,0 +1,129 @@
+/*General info*/
+html                            {
+                                        }
+body                            {
+                                        background-image: url('images/bg_img.gif'), url('images/rep_img.html');
+                                        background-attachment: fixed;
+                                        background-repeat: no-repeat, repeat;
+                                        background-position: center top, center top;
+                                        font-family: Tahoma, sans-serif;
+                                        font-size: 13px;
+                                        z-index: 1;
+                                        }
+                                       
+/*Wrappers*/   
+#wrapper                        {
+                                        position: absolute;
+                                        top: 60px;
+                                        left: 50%;
+                                        border: 0px solid black;
+                                        width: 640px;
+                                        height: 800px;
+                                        margin-left: -320px;
+                                        }
+#header_wrapper         {
+                                        position: relative;
+                                        left: 50%;
+                                        width: 640px;
+                                        margin-left: -320px;
+                                        }
+#top_wrapper            {
+                                        position: relative;
+                                        top: 20px;
+                                        left: 50%;
+                                        width: 618px;
+                                        margin-left: -309px;
+                                        }
+#content_wrapper        {
+                                        position: relative;
+                                        top: 150px;
+                                        left: 50%;
+                                        width: 618spx;
+                                        height: 384px;
+                                        margin-left: -309px;
+                                        background-image: url('images/boxes/contentbox.png');
+                                        background-repeat: no-repeat;
+                                        }
+#bottom_wrapper         {
+                                        position: relative;
+                                        top: 154px;
+                                        left: 50%;
+                                        width: 618px;
+                                        margin-left: -309px;
+                                        background-image: url('images/boxes/bottombuttonbox.png');
+                                        }
+                               
+/*Boxes*/
+#stats                          {
+                                        position: absolute;
+                                        width: 109px;
+                                        height: 90px;
+                                        padding-left: 70px;
+                                        padding-top: 36px;
+                                        background-image: url('images/boxes/statsbox.png');
+                                        }
+#noticeupdates          {
+                                        position: absolute;
+                                        right: 0px;
+                                        width: 402px;
+                                        height: 76px;
+                                        background-image: url('images/boxes/noticeupdatesbox.png');
+                                        font-size: 20px;
+                                        color: green;
+                                        padding-top: 50px;
+                                        padding-left: 30px;
+                                        }
+#content                        {
+                                        position: relative;
+                                        top: 26px;
+                                        border: 0px solid black;
+                                        width: 588px;
+                                        height: 348px;
+                                        padding-left: 20px;
+                                        padding-right: 10px;
+                                        padding-bottom: 6px;
+                                        overflow-y: auto;
+                                        overflow-x: hidden;
+                                        }
+#content_wrapper_left	{
+										height: 384px;
+										width: 400px;
+										float: left;
+										}
+#content_wrapper_right	{
+										height: 384px;
+										width: 158px;
+										float: right;
+										}
+#bottom_buttons         {
+                                        height: 72px;
+                                        padding-top: 29px;
+                                        text-align: center;
+                                        }
+                                       
+/*Buttons*/
+#donate                         {
+                                        position: relative;
+                                        display: block;
+                                        background-image: url('images/buttons/donate.png');
+                                        width: 137px;
+                                        height: 60px;
+                                        }
+#vote                           {
+                                        position: relative;
+                                        display: block;
+                                        background-image: url('images/buttons/vote.png');
+                                        width: 137px;
+                                        height: 60px;
+                                        }
+#unstuck                        {      
+                                        display: block;
+                                        background-image: url('images/buttons/unstuck.png');
+                                        width: 137px;
+                                        height: 60px;
+                                        }
+#chat                   {      
+                                        display: block;
+                                        background-image: url('images/buttons/chat.png');
+                                        width: 137px;
+                                        height: 60px;

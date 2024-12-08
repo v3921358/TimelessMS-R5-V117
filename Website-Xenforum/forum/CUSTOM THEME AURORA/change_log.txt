@@ -1,0 +1,69 @@
+-------------------------------------------- CHANGELOG -----------------------------------------------
+
+Aurora 1.1.0.2:
+	- Updated the Aurora Master theme to support latest changes in xenForo 1.1.2
+
+Aurora 1.1.0.2:
+	- Aurora Yellow child theme added!
+	- Added new functionality which allows to move the notices to the header
+          as well as specify the width in % for the logo and the notice wrappers.
+	- Fixed an issue with the sub-heading (padding).
+        - Fixed an issue with the not-read image and its positioning. Changed the image as well.
+	- Fixed the about baloon color to be configured from the theme About Balloon style property.
+          rather then using one of the preset colors.
+        - Fixed an issue with the main menu most left separator. Separator is now removed.
+	- Tab sub-links how have text shadow.
+	- User text and sub text (in the avatar) slightly modified for better looks.
+	- NOTE: All fluid versions will soon be removed. Tutorial will be provided how to make a 
+          theme fluid from the theme style properties.
+
+Aurora 1.1.0.1:
+	- Added The following child themes:
+	- Aurora Green
+        - Aurora Green Fluid
+	- Aurora Gray
+        - Aurora Gray Fluid
+
+Aurora 1.1.0.0:
+	- Official release of the theme to support xenForo 1.1
+	- Various changes and updates to the themes structure, and CSS
+	- Added style properties to take care of the main theme images so that future new child themes 
+          should be much easier to "implement".
+
+Aurora 1.0.4.10:
+	- Fixed an issue when the Home tab is not displayed.
+        - Fixed the colors of the alerts to be consistent with the theme.
+
+Aurora 1.0.4.9:
+	- Added support for the popup hover sub menu showing the quick links.
+        - Made the above feature configurable in the Aurora Style Properties.
+
+Aurora 1.0.4.8:
+	- Fixed an issue with the category background alignment.
+
+Aurora 1.0.4.7:
+	- Added Blue (Aurora Blue) and Blue Fluid (Aurora Blue Fluid) child themes.
+
+Aurora 1.0.4.6:
+	- Added PSDs to the theme for easy customization of some parts of the theme.
+
+Aurora 1.0.4.5:
+        - Fixed the sidebar hook issue which was making the countdown add-on not to function as expected.	
+        - Added support for the 8wayRun add-ons using the Extra.css template and a style property variable.
+	- Removed various images which ware left from the base Audiera.com theme.   	
+  
+Aurora 1.0.4.4:
+        - Fixed an issue with the images in the signatures.
+
+Aurora 1.0.4.3:	
+        - Added a child theme for fluid support.
+
+Aurora 1.0.4.2:	
+        - Fixed an issue with the home tab when it is selected. Changes made in navigation.css and navigation tempalte.
+
+Aurora 1.0.4.1:	
+	- Fixed an issue with the nodeList categoryStrip in the forum view. Change was done in node_list.css.
+	- Fixed the header issue when the logo height was set to a custom value. The height of the breadcrumb is now used in the height calculation.
+
+Aurora 1.0.4.0:
+	- Updated for XenForo 1.0.4.

@@ -1,0 +1,50 @@
+___________________________________________________________________________________________________________________________________________
+
+ Aurora Theme Install Instructions
+___________________________________________________________________________________________________________________________________________
+
+1. Upload the contents of the upload directory into the styles folder located in the root of your XenForo installation.
+
+2. Go into your XenForo Admin Control Panel, click on Styles, and then click on "Import a Style" in the left-hand navigation list.
+   
+3. Click on the "Choose File" button and select the style-Aurora.xml file (this is the main theme/PARENT file). 
+
+   ________________________________________________________________________________________________________________________________________
+
+     Ver. 1.1.0.0 and Up
+   ________________________________________________________________________________________________________________________________________
+   
+   After you install the main Aurora theme (style-Aurora.xml) you must install the following themes as child themes:
+
+     Aurora Fluid
+     Aurora Blue
+	
+   If you would like to install Aurora Blue Fluid please note that it must be installed as a child theme to Aurora Blue!
+   Aurora Gray Fluid must be installed as a child theme of Aurora Gray.
+   Aurora Green Fluid must be installed as a child theme of Aurora Green.
+   ... you get the picture!
+
+   ________________________________________________________________________________________________________________________________________
+
+     Prior Ver. 1.1.0.0
+   ________________________________________________________________________________________________________________________________________
+
+
+   To install any of the child themes (like Aurora Fluid) use ONLY step 2 and 3 above and select the theme from the child_themes folder.
+
+   Please make sure you specify Aurora as the PARENT theme!
+
+   ________________________________________________________________________________________________________________________________________
+
+     Notes
+   ________________________________________________________________________________________________________________________________________
+
+
+   - Child themes are localed in the child_themes folder.
+
+   - For the child themes YOU DO NOT need anything else other than the child theme xml files all images are already packed in the upload 
+     folder.
+
+
+
+   Enjoy Aurora!

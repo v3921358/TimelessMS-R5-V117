@@ -1,0 +1,108 @@
+**@@~~~~~~~~~~REV 1~~~~~~~~~~@@**
+[Added]Initial import of CiphraDev. (AmbolishedMS)
+[Changed]Cleaning.
+[Changed]Packet changing.
+[Changed]Blank NPC for Coding purposes
+[Added]Added 'Drops' into the World.props. 
+[Added]DB properties change.
+[Changed]Server.java to be more afficient. And Look better with rates+rev.
+[Fixed]Phantom Steal Skill ^_^
+[Adding]More Non-GMS NPC
+[Added]Rebirths
+[Added]Non-GMS Job Advancer
+[Added]Online Command
+[Fixed]More stable within the game
+[Added]Style Command
+
+**@@~~~~~~~~~~REV 2~~~~~~~~~~@@**
+[REMOVED]Most Players System. ~REMOVED~
+[Re-Removed]Quest for High Rate purposes.
+[Added]FeedBack System <3
+[Added]MOST GMS Shops to SQL
+[Added]!ReloadCustomLife Command
+[Added]New Commands [@freeitem / @smega / @vpoint]
+
+*************************@ABOVE IS STILL V116*************************
+
+**@@~~~~~~~~~~REV 2.5~~~~~~~~~~@@** [Biggest Update (Maybe) v117!] //Added Mihile. But, v117 is (not)NOWOWWW done.
+[Re-Added]Quests <3
+[Added] BIG WZ EDITSSS. 
+[Adding]v117 Packets
+[Added]Mihile//Not Skills
+[Added]Custom NPC's (By WZ)
+[Changed]Rates (OPTIONAL)
+[Deleted]Deleting Wz Edits. At v117
+[Added]v117 Packetss :o
+[Added]Packet Log stuuf <3
+[Fixed]Separated AP Shit.    (Credits to Sunnyboy184)
+[UPPPPPDATTEDDDDDDDDDDDDDDDD TO V117] Successful.
+
+**@@~~~~~~~~~~REV 3~~~~~~~~~~@@** Mostly Fixing Skills
+[Removed]Wz Edits
+[Fixed]Mihile SoulBlade 
+[Fixed]Health Skills 
+[Fixed] Sword Booster
+[Fixed]Radiant Blast 
+[Fixed]Radiant Buster 
+[Fixed]Radiant Charge
+[Fixed]Enduring Spirit
+[Fixed]Magic Crash(No Skill Preview) (Cancel Enemy's buff)
+[Fixed]Radiant Charge (Damage 30%) 
+[Fixed]Roiling Soul (60% DMG) (CRIT RATE %) (MINIMUN CRIT RATE%) 
+[Added] MOST MIHILE SKILLS ARE FIXED <3. 
+
+**@@~~~~~~~~~~REV 4~~~~~~~~~~@@** (MIGHT) Didn't UPDATE v117.2 [BIG UPDATE]
+[Added]v120 Drops <3
+[Fixed]Mihile can't add SP too begginer skills
+[Added]Mihile now equips the soul shield apon character creation
+[Fixed]Mihile Character Creation (Purple Hair?) FIXED
+[Removed]@joyce Christmas thingy. (annoying)
+[Fixed]Login D/C (The Beggining. And the Mihile D/C)
+[Fixed] Hired Merchant
+[Added]v117.2 Shops x2
+[Fixed] Quest 20036 (Changed 5100 to 3300)
+[Changed]Soul Warrior to Dawn Warrior Quest 20101 (GMS)
+[Changed]Flame Wizard to Blaze Wizard Quest 20102 (GMS)
+[Changed]Striker to Thunder Breaker.
+[Added+Changed]Added and removed names Forbidden Names (Etc.wz\ForbiddenName.xml)
+[Added] Credits to PlayerCommands xD
+[Added] Tempest Stuff (Angelic,Kaiser and Luminous) (Most Skills Registered)
+[Changed]Rates to v83 rates. Since, it's a high rate server.
+[Added]Unhide Command (InternCommand.java)
+[Added]Staff Chat Command. (!staffc)
+[Added]@sellitems (Sells Items in certain inventory)
+[Fixed]Ariant Bombs. AUTOO
+[Fixed]Pet Spawn
+[Added]When deleted character pets are deleted too.
+[Added]!setname command. Changes name of players. + NPC
+[Fixed]Dojo
+[Fixed]Angelic Blessing
+[Fixed]Demon Slayer Shield at Character Creation and at other demon jobs 3100,3110,....
+
+**@@~~~~~~~~~~REV 5~~~~~~~~~~@@** MIGHT UPDATE v117.2 <3 //Mostly, Skills Update. Wanting to get 98/99% Working Skills xD.
+[Changed] 2 Channels to 13 because, of Von Leon/Cygnus. 
+[Fixed] Mihile 1st job HP Boost
+[Fixing]SKILL CHECK (FIXING SKILLS) 
+-Done Phantom (Fixed Rapier Wit Linked Skill) (Penombre Fixed Linked) (All Attack Skills Working) (Fixed Aria Buff,Most Buff Works)
+-Done Thief (Done Night Lord) (Done Shadower) (Done Dual Blade)
+-Done Demon Slayer (Fixed Black Hearted Strength)
+-Done Battle Mage (Maybe, a few of the Aura don't work. I didn't understand it.) (Cannot fix Twister Spin)
+-Done Wild Hunter (Fixed Blind) (Cannot Fix StinkBomb x2 EXP, HEX problem)
+[Added]Starter NPC + New starter Map //Need to fix D/C after clicking/warping.
+[Fixed]Dual Blade Revamp
+[NotFixed/GaveUp]Mihile Tutorial Map//Gave-Up
+[Changed+Added+Fixed] Opcodes (v117)
+[Added]Red Leaf High's Packet (Credits: AristoCat)
+[Added]Beginner Job Switching Feature v117 (@jobchange) (Credits : IDK HIS NAME D:)
+[Modified]Start.java again c: (Made Shorter)
+[Fixed]Job Advancer DB+Evan only went half way into job.
+[Added/Fixed]Jett core to Jett on Character Creation/Leveing Up/Job Advancing
+[Changing]Testing/Changing v117.2 opcodes. And testing v117.2 individually.
+[Added] Donor Command
+[Added/Changed] Lev. 10/30/70/120 Job Advance (Credits: burblish)
+[Added] @rollthedice command. (x2 the Meso,or lose all of it)
+[Added] Hired Merchant Fix
+[Added] Inner Ability
+[Added] Azwan (One Part)
+[Fixed] Jett Core in Packets
+[Added]AutoLoot

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<addon addon_id="XFCliImporter" title="XenForo CLI Importer" version_string="2.0 Alpha" version_id="3" url="" install_callback_class="" install_callback_method="" uninstall_callback_class="" uninstall_callback_method="">
+  <admin_navigation/>
+  <admin_permissions/>
+  <admin_style_properties/>
+  <admin_templates>
+    <template title="import_config_threads"><![CDATA[<xen:title>{xen:phrase configure_thread_import}</xen:title>
+
+<xen:form action="{xen:adminlink import/start-step}">
+	<xen:radiounit label="{xen:phrase thread_import_mode}:" name="options[importMode]">
+		<xen:option label="{xen:phrase use_web_browser_interface}" value="web" hint="{xen:phrase use_web_browser_interface_hint}" selected="true" />
+
+		<xen:option label="{xen:phrase use_command_line_interface}" value="cli" hint="{xen:phrase use_command_line_interface_hint}">
+			<xen:disabled>
+				<div style="margin-top: 5px">
+					<label for="opt_phpBinary">{xen:phrase path_to_php_binary}:</label>
+					<div><xen:textbox name="options[phpBinary]" value="/usr/bin/php" size="auto" id="opt_phpBinary" /></div>
+					<p class="explain">{xen:phrase path_to_php_binary_hint}</p>
+				</div>
+
+				<div style="margin-top: 5px">
+					<label for="opt_numProcesses">{xen:phrase processes_to_run}:</label>
+					<div><xen:spinbox name="options[numProcesses]" value="2" min="1" step="1" id="opt_numProcesses" /></div>
+					<p class="explain">{xen:phrase processes_to_run_hint}</p>
+				</div>
+
+				<div style="margin-top: 5px">
+					<xen:checkbox>
+						<xen:option name="options[taskset]">
+							<xen:label>{xen:phrase use_taskset}</xen:label>
+							<xen:disabled>
+								<label for="opt_numCores">{xen:phrase number_of_cpu_cores}:</label>
+								<div><xen:spinbox name="options[numCores]" value="0" min="0" step="2" id="opt_numCores" /></div>
+								<p class="explain"></p>
+							</xen:disabled>
+						</xen:option>
+					</xen:checkbox>
+				</div>
+			</xen:disabled>
+		</xen:option>
+	</xen:radiounit>
+
+	<xen:submitunit save="{xen:phrase import_threads_and_posts}" />
+
+	<input type="hidden" name="options[_dummy]" value="1" /> <!-- ensures there are always options -->
+	<input type="hidden" name="step" value="{$step}" />
+</xen:form>]]></template>
+    <template title="import_data_cli"><![CDATA[<xen:title>{xen:phrase import_data_using_command_line}</xen:title>
+
+<xen:form action="{xen:adminlink import/import}">
+
+<style>
+.cliCommand
+{
+	font-size: 14pt;
+	padding: 10pt;
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+	margin: 10px 0;
+}
+</style>
+
+<xen:set var="$cmd">
+<xen:textbox inputclass="cliCommand code" label="" name="cmd" value="{$options.phpBinary} {$scriptPath}/library/XFCliImporter/import.php" />
+<p class="muted" style="margin: 1em 0; font-size: 11px">{xen:phrase import_data_cli_use_screen}</p>
+</xen:set>
+
+<p>{xen:phrase import_data_cli, 'command={xen:raw $cmd}'}</p>
+
+<xen:submitunit save="{xen:phrase continue}" />
+
+</xen:form>]]></template>
+  </admin_templates>
+  <code_events/>
+  <code_event_listeners>
+    <listener event_id="load_class_model" execute_order="10" callback_class="XFCliImporter_CodeEvent_Listener" callback_method="loadClassModel" active="1" description="Extends the XenForo import model to list the CLI importers."/>
+  </code_event_listeners>
+  <cron/>
+  <email_templates/>
+  <optiongroups/>
+  <permissions>
+    <permission_groups/>
+    <permissions/>
+    <interface_groups/>
+  </permissions>
+  <phrases>
+    <phrase title="import_data_cli" version_id="1000570" version_string="1.0.5"><![CDATA[Run the following command on your server using its command line:
+
+{command}
+
+After the script completes, click the button below to continue with the import of remaining data.]]></phrase>
+    <phrase title="import_data_cli_use_screen" version_id="1" version_string="1.0 Private Alpha"><![CDATA[It is strongly recommended that you run this process using a 'screen' in order to avoid losing access to it in the event that your connection to the server is broken during the import process. You may also monitor the import by using 'tail' on /tmp/import.log.]]></phrase>
+    <phrase title="import_data_using_command_line" version_id="1000570" version_string="1.0.5"><![CDATA[Import Data Using Command Line]]></phrase>
+    <phrase title="number_of_cpu_cores" version_id="1" version_string="1.0 Private Alpha"><![CDATA[Number of CPU cores]]></phrase>
+    <phrase title="number_of_cpu_cores_hint" version_id="1" version_string="1.0 Private Alpha"><![CDATA[If you are running a Linux server, have root privileges, and can make use of the 'taskset' command to assign processes to a particular CPU core, enter the number of cores in your server here. If you are not able to run '<b>taskset</b>' for any reason, leave this value as 0.]]></phrase>
+    <phrase title="path_to_php_binary" version_id="1000570" version_string="1.0.5"><![CDATA[Path to PHP Binary]]></phrase>
+    <phrase title="path_to_php_binary_hint" version_id="1000570" version_string="1.0.5"><![CDATA[Enter the path to the PHP executable on your server, such as /usr/bin/php, /usr/local/zend/bin/php etc.]]></phrase>
+    <phrase title="processes_to_run" version_id="1000570" version_string="1.0.5"><![CDATA[Processes to Run]]></phrase>
+    <phrase title="processes_to_run_hint" version_id="1" version_string="1.0 Private Alpha"><![CDATA[Specify the number of separate PHP import processes to run. You should related this number to the number of CPU cores available in your server.]]></phrase>
+    <phrase title="thread_import_mode" version_id="1000570" version_string="1.0.5"><![CDATA[Thread Import Mode]]></phrase>
+    <phrase title="use_command_line_interface" version_id="1000570" version_string="1.0.5"><![CDATA[Use Command Line Interface]]></phrase>
+    <phrase title="use_command_line_interface_hint" version_id="1000570" version_string="1.0.5"><![CDATA[<b>Advanced Users Only</b> Run this part of the import process via the command line - you will need shell access to your server in order to proceed with this step.]]></phrase>
+    <phrase title="use_taskset" version_id="1000570" version_string="1.0.5"><![CDATA[Use <b>taskset</b> to set CPU affinity]]></phrase>
+    <phrase title="use_web_browser_interface" version_id="1000570" version_string="1.0.5"><![CDATA[Use Web Browser Interface]]></phrase>
+    <phrase title="use_web_browser_interface_hint" version_id="1000570" version_string="1.0.5"><![CDATA[Continue the import process within the web browser, as you have been doing so far.]]></phrase>
+  </phrases>
+  <route_prefixes/>
+  <style_properties/>
+  <templates/>
+</addon>

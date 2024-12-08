@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style title="Aurora Blue" description="Aurora Blue Theme" user_selectable="1">
+  <properties>
+    <property property_name="secondaryDarker" property_type="scalar"><![CDATA[rgb(52, 120, 166)]]></property>
+    <property property_name="secondaryDark" property_type="scalar"><![CDATA[rgb(62, 141, 194)]]></property>
+    <property property_name="secondaryMedium" property_type="scalar"><![CDATA[rgb(69, 163, 225)]]></property>
+    <property property_name="secondaryLight" property_type="scalar"><![CDATA[rgb(107, 185, 237)]]></property>
+    <property property_name="secondaryLighter" property_type="scalar"><![CDATA[rgb(137, 197, 237)]]></property>
+    <property property_name="aur_bg_NavTab" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/main_menu_bg_blue.gif","background-repeat":"repeat-x"}]]></property>
+    <property property_name="aur_bg_NavTabSelectedLink" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/nav_bg_selected_blue.png","background-repeat":"repeat-x"}]]></property>
+    <property property_name="aur_bg_NavHover" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/nav_bg_hover_blue.png","background-repeat":"repeat-x"}]]></property>
+    <property property_name="aur_bg_NavTabPopOpnHvrBg" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/darkblue_bg.png","background-position":"top","background-repeat":"repeat-x"}]]></property>
+    <property property_name="aur_bg_CurTabArrow" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/current_tab_blue.png","background-position":"center 0.1%","background-repeat":"no-repeat"}]]></property>
+    <property property_name="aur_bg_NavLinkSubMenuBg" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/submenu_bg_blue.png"}]]></property>
+    <property property_name="aur_bg_NavTabSeparator" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/nav_seperator_blue.gif","background-position":"100% 50%","background-repeat":"no-repeat"}]]></property>
+    <property property_name="aur_bg_UserText" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/avatar_bg_blue.png","background-position":"top","background-repeat":"no-repeat"}]]></property>
+    <property property_name="headerLogoPath" property_type="scalar"><![CDATA[styles/aurora/xenforo/aurora_logo_blue.jpg]]></property>
+    <property property_name="navTabLinkHover" property_type="css"><![CDATA[{"border-radius":"3px","color":"rgb(180, 210, 255)","text-decoration":{"none":"none"}}]]></property>
+  </properties>
+  <templates/>
+</style>

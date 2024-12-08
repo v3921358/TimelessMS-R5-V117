@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style title="Aurora Gray" description="Aurora Gray Theme" user_selectable="1">
+  <properties>
+    <property property_name="html" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/body_bg.gif"}]]></property>
+    <property property_name="headerLogoPath" property_type="scalar"><![CDATA[styles/aurora/xenforo/aurora_logo_gray.jpg]]></property>
+    <property property_name="aur_bg_NavTab" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/main_menu_bg_gray.gif","background-repeat":"repeat-x"}]]></property>
+    <property property_name="aur_bg_NavTabSeparator" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/nav_seperator_gray.gif","background-position":"100% 50%","background-repeat":"no-repeat"}]]></property>
+    <property property_name="aur_bg_NavLinkSubMenuBg" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/submenu_bg_gray.png"}]]></property>
+    <property property_name="aur_bg_NavHover" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/nav_bg_hover_gray.png","background-repeat":"repeat-x"}]]></property>
+    <property property_name="aur_bg_NavTabSelectedLink" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/nav_bg_selected_gray.png","background-repeat":"repeat-x"}]]></property>
+    <property property_name="aur_bg_CurTabArrow" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/current_tab_gray.png","background-position":"center 0.1%","background-repeat":"no-repeat"}]]></property>
+    <property property_name="aur_bg_NavTabPopOpnHvrBg" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/darkgray_bg.png","background-position":"top","background-repeat":"repeat-x"}]]></property>
+    <property property_name="aur_bg_UserText" property_type="css"><![CDATA[{"background-image":"@imagePath\/xenforo\/avatar_bg_gray.png","background-position":"top","background-repeat":"no-repeat"}]]></property>
+    <property property_name="secondaryDarker" property_type="scalar"><![CDATA[rgb(76, 76, 76)]]></property>
+    <property property_name="secondaryDark" property_type="scalar"><![CDATA[rgb(96, 90, 90)]]></property>
+    <property property_name="secondaryMedium" property_type="scalar"><![CDATA[rgb(116, 109, 109)]]></property>
+    <property property_name="secondaryLight" property_type="scalar"><![CDATA[rgb(139, 135, 135)]]></property>
+    <property property_name="secondaryLighter" property_type="scalar"><![CDATA[rgb(178, 177, 177)]]></property>
+    <property property_name="navTabLinkHover" property_type="css"><![CDATA[{"border-radius":"3px","color":"rgb(206, 206, 206)","text-decoration":{"none":"none"}}]]></property>
+  </properties>
+  <templates/>
+</style>

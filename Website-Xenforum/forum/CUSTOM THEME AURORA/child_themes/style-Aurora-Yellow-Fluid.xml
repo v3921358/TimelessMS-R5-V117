@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style title="Aurora Yellow Fluid" description="Aurora Yellow Fluid Version" user_selectable="1">
+  <properties>
+    <property property_name="pageWidth" property_type="css"><![CDATA[{"extra":"margin: 0 20px;","width":"auto"}]]></property>
+    <property property_name="breadBox" property_type="css"><![CDATA[{"background-color":"#fff","extra":"overflow: hidden;\nzoom: 1;\nclear: both;\nmargin: 0 20px;","margin-bottom":"0","margin-left":"auto","margin-right":"auto","margin-top":"0","width":"auto"}]]></property>
+    <property property_name="breadcrumbTitlePrefix" property_type="css"><![CDATA[{"border-color":"black","border-radius":"0","border-style":"none","border-width":"0","extra":"font-weight: normal;\ndisplay: inline;","font-style":"italic","margin-all":"0","padding-all":"0"}]]></property>
+  </properties>
+  <templates/>
+</style>
